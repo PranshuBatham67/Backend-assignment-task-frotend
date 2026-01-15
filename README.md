@@ -43,6 +43,7 @@ A modern, responsive frontend for the TaskMaster application, built with **React
 3. **Verify API Configuration:**
    - The API base URL is configured in `src/services/api.js`.
    - Default: `http://localhost:8000/api`
+   - deploy on : `https://backend-assignment-task-frotend.vercel.app/login`
 
 ## 🏃‍♂️ Running the Application
 
@@ -91,3 +92,4 @@ src/
 ├── App.jsx          # Main Router configuration
 └── main.jsx         # Entry point
 ```
+
