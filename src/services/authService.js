@@ -13,11 +13,6 @@ export const authService = {
 
     async register(data) {
         const response = await api.post('/v1/auth/register', data);
-        if (response.data.access_token) {
-            localStorage.setItem('access_token', response.data.access_token);
-            localStorage.setItem('refresh_token', response.data.refresh_token);
-            localStorage.setItem('user', JSON.stringify(response.data.user));
-        }
         return response.data;
     },
 

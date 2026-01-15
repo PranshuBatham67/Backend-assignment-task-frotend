@@ -27,13 +27,8 @@ export const AuthProvider = ({ children }) => {
     };
 
     const register = async (data) => {
-        try {
-            const response = await authService.register(data);
-            // Don't auto-login after registration - user should login manually
-            return response;
-        } catch (error) {
-            throw error;
-        }
+        const response = await authService.register(data);
+        return response;
     };
 
     const logout = async () => {
