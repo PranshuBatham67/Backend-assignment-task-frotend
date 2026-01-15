@@ -43,7 +43,6 @@ A modern, responsive frontend for the TaskMaster application, built with **React
 3. **Verify API Configuration:**
    - The API base URL is configured in `src/services/api.js`.
    - Default: `http://localhost:8000/api`
-
 ## 🏃‍♂️ Running the Application
 
 Start the development server:
@@ -91,3 +90,5 @@ src/
 ├── App.jsx          # Main Router configuration
 └── main.jsx         # Entry point
 ```
+
+
