@@ -12,5 +12,8 @@ export default defineConfig({
         changeOrigin: true,
       }
     }
+  },
+  preview: {
+    allowedHosts: ['backend-assignment-task-frotend.onrender.com', 'localhost']
   }
 })
